@@ -1,0 +1,20 @@
+-> throw e throws:
+
+- throw é usado para lançar (ou "jogar") uma exceção em um determinado ponto do código. É usado quando queremos sinalizar explicitamente um erro ou uma situação excepcional.
+- throws é usado na declaração de um método para indicar que o método pode lançar uma ou mais exceções específicas. Isso informa aos chamadores do método quais exceções eles precisam tratar ou propagar.
+
+
+
+-> Checked Exceptions (exceções verificadas):
+
+- Checked exceptions são exceções que o compilador verifica se estão sendo tratadas pelo código. São exceções que podem ocorrer durante a execução do programa e que o programador é obrigado a lidar de alguma forma.
+
+
+-> Unchecked Exceptions (exceções não verificadas):
+
+- Unchecked exceptions são exceções que o compilador não verifica se estão sendo tratadas. São exceções que ocorrem em tempo de execução e geralmente são causadas por erros de programação, como acessar um índice inválido em um array ou tentar dividir por zero.
+
+
+
+
+Em resumo, throw é usado para lançar uma exceção em um ponto específico do código, enquanto throws é usado na declaração do método para indicar quais exceções podem ser lançadas pelo método. Checked exceptions são verificadas pelo compilador e exigem tratamento obrigatório, enquanto unchecked exceptions não são verificadas pelo compilador e podem ser tratadas opcionalmente.
